@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewrie - Ofertas</title>
+    <link rel="stylesheet" href="ofertas.css">
+    <link rel="shortcut icon" href="../images/icono.png">
+    <script src="../funcion_carrito.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../images/header_fondo_grande.png" alt="" class="header_fondo_grande">
+        <img src="../images/header_fondo_chico.png" alt="" class="header_fondo_chico">
+    </header>
+    <nav>
+        <ul class="menu_horizontal">
+            <li class="carrito_contenedor">
+                <div class="carrito_texto"><a href="../carrito/carrito.html" class="">Carrito</a></div>
+                <a href="../carrito/carrito.html" class="carrito_imagen_a"><img src="../images/carrito.png" alt="" class="carrito_imagen"></a>
+            </li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li>
+                <a href="../quienes_somos/quienes_somos.html">¿Quiénes somos?</a>
+                <ul class="menu_vertical">
+                    <li><a href="../quienes_somos/quienes_somos.html#mision">Misión</a></li>
+                    <li><a href="../quienes_somos/quienes_somos.html#vision">Visión</a></li>
+                </ul>
+            </li>
+            <li><a href="../contactanos/contactanos.html">Contáctanos</a></li>
+            <li>
+                <a href="../categorias/categorias.html">Categorías</a>
+                <ul class="menu_vertical">
+                    <li><a href="../categorias/categorias.html#canasta_basica">Canasta básica</a></li>
+                    <li><a href="../categorias/categorias.html#frutas">Frutas</a></li>
+                    <li><a href="../categorias/categorias.html#bebidas">Bebidas</a></li>
+                    <li><a href="../categorias/categorias.html#productos_limpieza">Productos de limpieza</a></li>
+                </ul>
+            </li>
+            <li><a href="#main">Ofertas</a></li>
+        </ul>
+    </nav>
+    <main id="main">
+        <h1>OFERTAS</h1>
+
+        <div class="contenedor_oferta">
+            <div class="contenedor_oferta_image" id="cuarenta">
+                <img src="images/cuarenta.png" alt="" class="oferta_image">
+            </div>
+
+            <div class="contenedor_oferta_productos">
+                <div class="producto">
+                    <img src="images/aceite_vegetal.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Aceite vegetal</p>
+                    <p class="info_producto">$18.00</p>
+                    <p class="precio_original">$30.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Aceite vegetal', '18.00', 'aceite_vegetal.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/sal.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Sal yodada</p>
+                    <p class="info_producto">$6.00</p>
+                    <p class="precio_original">$10.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Sal yodada', '6.00', 'sal.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/espagueti.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Spaghetti</p>
+                    <p class="info_producto">$6.00</p>
+                    <p class="precio_original">$10.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Spaghetti', '6.00', 'espagueti.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/pasta_sopa.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Pasta para sopa</p>
+                    <p class="info_producto">$9.00</p>
+                    <p class="precio_original">$15.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Pasta para sopa', '9.00', 'pasta_sopa.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/sopa_instantanea.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Sopa instantánea</p>
+                    <p class="info_producto">$7.50</p>
+                    <p class="precio_original">$12.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Sopa instantánea', '7.50', 'sopa_instantanea.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/cafe.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Café molido</p>
+                    <p class="info_producto">$30.00</p>
+                    <p class="precio_original">$50.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Café molido', '30.00', 'cafe.png')">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor_oferta">
+            <div class="contenedor_oferta_image" id="veinte">
+                <img src="images/veinte.png" alt="" class="oferta_image">
+            </div>
+
+            <div class="contenedor_oferta_productos">
+                <div class="producto">
+                    <img src="images/galletas_chocolate.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Galletas de chocolate</p>
+                    <p class="info_producto">$12.00</p>
+                    <p class="precio_original">$15.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Galletas de chocolate', '12.00', 'galletas_chocolate.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/refresco_2l.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Refresco 2L</p>
+                    <p class="info_producto">$16.00</p>
+                    <p class="precio_original">$20.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Refresco 2L', '16.00', 'refresco_2l.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/agua.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Agua</p>
+                    <p class="info_producto">$8.00</p>
+                    <p class="precio_original">$10.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Agua', '8.00', 'agua.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/jabon_trastes.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Jabón para trastes</p>
+                    <p class="info_producto">$12.00</p>
+                    <p class="precio_original">$15.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Jabón para trastes', '12.00', 'jabon_trastes.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/cepillo_dental.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Cepillo dental</p>
+                    <p class="info_producto">$12.00</p>
+                    <p class="precio_original">$15.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Cepillo dental', '12.00', 'cepillo_dental.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/pasta_dientes.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Pasta dental</p>
+                    <p class="info_producto">$24.00</p>
+                    <p class="precio_original">$30.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Pasta dental', '24.00', 'pasta_dientes.png')">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor_oferta">
+            <div class="contenedor_oferta_image" id="diez">
+                <img src="images/diez.png" alt="" class="oferta_image">
+            </div>
+
+            <div class="contenedor_oferta_productos">
+                <div class="producto">
+                    <img src="images/tocino.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Tocino</p>
+                    <p class="info_producto">$45.00</p>
+                    <p class="precio_original">$50.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Tocino', '45.00', 'tocino.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/mayonesa.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Mayonesa</p>
+                    <p class="info_producto">$31.50</p>
+                    <p class="precio_original">$35.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Mayonesa', '31.50', 'mayonesa.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/catsup.webp" alt="" class="producto_imagen">
+                    <p class="info_producto">Catsup</p>
+                    <p class="info_producto">$13.50</p>
+                    <p class="precio_original">$15.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Catsup', '13.50', 'catsup.webp')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/aceitunas_enlatadas.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Aceitunas en lata</p>
+                    <p class="info_producto">$22.50</p>
+                    <p class="precio_original">$25.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Aceitunas en lata', '22.50', 'aceitunas_enlatadas.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/jugo_naranja.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Jugo de naranja</p>
+                    <p class="info_producto">$27.00</p>
+                    <p class="precio_original">$30.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Jugo de naranja', '27.00', 'jugo_naranja.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/salsa_picante.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Salsa picante</p>
+                    <p class="info_producto">$13.50</p>
+                    <p class="precio_original">$15.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Salsa picante', '13.50', 'salsa_picante.png')">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor_oferta">
+            <div class="contenedor_oferta_image" id="cinco">
+                <img src="images/cinco.png" alt="" class="oferta_image">
+            </div>
+
+            <div class="contenedor_oferta_productos">
+                <div class="producto">
+                    <img src="images/arroz.webp" alt="" class="producto_imagen">
+                    <p class="info_producto">Arroz</p>
+                    <p class="info_producto">$25.00</p>
+                    <p class="precio_original">$26.50</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Arroz', '25.00', 'arroz.webp')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/pan.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Pan integral</p>
+                    <p class="info_producto">$85.50</p>
+                    <p class="precio_original">$90.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Pan integral', '85.50', 'pan.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/leche_chocolate.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Leche de chocolate</p>
+                    <p class="info_producto">$34.50</p>
+                    <p class="precio_original">$36.50</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Leche de chocolate', '34.50', 'leche_chocolate.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/huevos.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Huevos</p>
+                    <p class="info_producto">$45.00</p>
+                    <p class="precio_original">$47.50</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Huevos', '45.00', 'huevos.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/papas_fritas.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Papas fritas</p>
+                    <p class="info_producto">$45.00</p>
+                    <p class="precio_original">$47.50</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Papas fritas', '45.00', 'papas_fritas.png')">Añadir al carrito</button>
+                </div>
+
+                <div class="producto">
+                    <img src="images/miel_abeja.png" alt="" class="producto_imagen">
+                    <p class="info_producto">Miel de abeja</p>
+                    <p class="info_producto">$43.00</p>
+                    <p class="precio_original">$45.00</p>
+                    <button class="producto_button" onclick="anadirAlCarrito('Miel de abeja', '43.00', 'miel_abeja.png')">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        © 2024 Lewrie. Todos los derechos reservados.
+    </footer>
+</body>

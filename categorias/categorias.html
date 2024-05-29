@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewrie - Categorías</title>
+    <link rel="stylesheet" href="categorias.css">
+    <link rel="shortcut icon" href="../images/icono.png">
+    <script src="../funcion_carrito.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../images/header_fondo_grande.png" alt="" class="header_fondo_grande">
+        <img src="../images/header_fondo_chico.png" alt="" class="header_fondo_chico">
+    </header>
+    <nav>
+        <ul class="menu_horizontal">
+            <li class="carrito_contenedor">
+                <div class="carrito_texto"><a href="../carrito/carrito.html" class="">Carrito</a></div>
+                <a href="../carrito/carrito.html" class="carrito_imagen_a"><img src="../images/carrito.png" alt="" class="carrito_imagen"></a>
+            </li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li>
+                <a href="../quienes_somos/quienes_somos.html">¿Quiénes somos?</a>
+                <ul class="menu_vertical">
+                    <li><a href="../quienes_somos/quienes_somos.html#mision">Misión</a></li>
+                    <li><a href="../quienes_somos/quienes_somos.html#vision">Visión</a></li>
+                </ul>
+            </li>
+            <li><a href="../contactanos/contactanos.html">Contáctanos</a></li>
+            <li>
+                <a href="#main">Categorías</a>
+                <ul class="menu_vertical">
+                    <li><a href="#canasta_basica">Canasta básica</a></li>
+                    <li><a href="#frutas">Frutas</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                    <li><a href="#productos_limpieza">Productos de limpieza</a></li>
+                </ul>
+            </li>
+            <li><a href="../ofertas/ofertas.html">Ofertas</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <h2 id="canasta_basica">Canasta básica</h2>
+        <div class="contenedor_producto">
+            <div class="producto">
+                <img src="images/frijoles.png" alt="" class="producto_imagen">
+                <p>Frijoles negros</p>
+                <p><b>$27.50</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Frijoles negros', '27.50', 'frijoles.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/arroz.webp" alt="" class="producto_imagen">
+                <p>Arroz</p>
+                <p><b>$25.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Arroz', '25.00', 'arroz.webp')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/azucar.webp" alt="" class="producto_imagen">
+                <p>Azúcar refinada</p>
+                <p><b>$93.50</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Azúcar refinada', '93.50', 'azucar.webp')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/harina_trigo.png" alt="" class="producto_imagen">
+                <p>Harina de trigo</p>
+                <p><b>$20.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Harina de trigo', '20.00', 'harina_trigo.png')">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <h2 id="frutas">Frutas</h2>
+        <div class="contenedor_producto">
+            <div class="producto">
+                <img src="images/manzanas.png" alt="" class="producto_imagen">
+                <p>Manzanas 1kg</p>
+                <p><b>$25.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Manzanas 1kg', '35.00', 'manzanas.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/platanos.png" alt="" class="producto_imagen">
+                <p>Plátanos 1kg</p>
+                <p><b>$29.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Plátanos 1kg', '29.00', 'platanos.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/naranjas.png" alt="" class="producto_imagen">
+                <p>Naranjas 1kg</p>
+                <p><b>$30.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Naranjas 1kg', '30.00', 'naranjas.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/uvas_verdes.png" alt="" class="producto_imagen">
+                <p>Uvas verdes 1kg</p>
+                <p><b>$99.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Uvas verdes 1kg', '99.00', 'uvas_verdes.png')">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <h2 id="bebidas">Bebidas</h2>
+        <div class="contenedor_producto">
+            <div class="producto">
+                <img src="images/jugo_naranja.png" alt="" class="producto_imagen">
+                <p>Jugo de naranja</p>
+                <p><b>$27.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Jugo de naranja', '27.00', 'jugo_naranja.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/refresco_2l.png" alt="" class="producto_imagen">
+                <p>Refresco 2L</p>
+                <p><b>$16.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Refresco 2L', '16.00', 'refresco_2l.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/agua.png" alt="" class="producto_imagen">
+                <p>Agua</p>
+                <p><b>$8.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Agua', '8.00', 'agua.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/leche_chocolate.png" alt="" class="producto_imagen">
+                <p>Leche de chocolate</p>
+                <p><b>$34.50</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Leche de chocolate', '34.50', 'leche_chocolate.png')">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <h2 id="productos_limpieza">Productos de limpieza</h2>
+        <div class="contenedor_producto">
+            <div class="producto">
+                <img src="images/desinfectante_multiusos.png" alt="" class="producto_imagen">
+                <p>Desinfectante multiusos</p>
+                <p><b>$48.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Desinfectante multiusos', '48.00', 'desinfectante_multiusos.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/detergente_polvo_ropa.png" alt="" class="producto_imagen">
+                <p>Detergente en polvo para ropa</p>
+                <p><b>$154.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Detergente en polvo para ropa', '154.00', 'detergente_polvo_ropa.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/jabon_trastes.png" alt="" class="producto_imagen">
+                <p>Jabón para trastes</p>
+                <p><b>$12.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Jabón para trastes', '12.00', 'jabon_trastes.png')">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="images/bolsas_basura.png" alt="" class="producto_imagen">
+                <p>Paquete de bolsas de basura</p>
+                <p><b>$292.00</b></p>
+                <button class="producto_button" onclick="anadirAlCarrito('Paquete de bolsas de basura', '292.00', 'bolsas_basura.png')">Añadir al carrito</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        © 2024 Lewrie. Todos los derechos reservados.
+    </footer>
+</body>
