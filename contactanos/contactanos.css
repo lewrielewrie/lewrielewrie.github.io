@@ -212,6 +212,12 @@ p {
              1px  1px 0 #000;
 }
 
+#gracias_contactarnos {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
 footer {
     font-family: Verdana, sans-serif;
     text-align: center;
